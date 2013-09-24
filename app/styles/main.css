@@ -1,0 +1,78 @@
+body {
+	margin: 0;
+}
+
+* {
+	vertical-align: top;
+}
+
+.container {
+	width: 700px;
+	margin: 0 auto;
+	background: #acacac;
+}
+
+.day-names {
+	width: 700px;
+	margin: 100px auto 0;
+}
+
+.day-names span {
+	color: #CCFAFA;
+	width: 100px;
+	text-align: center;
+	background: #368B92;
+	border-bottom: 1px solid #368B92;
+	display: inline-block;
+}
+
+.row-generator {
+	color: #CCFAFA;
+	margin: 100px auto 0;
+	width: 200px;
+	background: #368B92;
+}
+
+.row {
+	width: 700px;
+	height: 99px;
+	border-bottom: 1px solid #368B92;
+}
+
+.day-wrapper {
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+}
+
+.day {
+	color: #368B92;
+	width: 98px;
+	height: 99px;
+	display: inline-block;
+	background: rgb(184, 221, 250);
+	position: relative;
+}
+
+.row .day:first-child {
+	width: 98px;
+	border-left: 1px solid #368B92;
+}
+
+.row .day:last-child {
+	width: 98px;
+	border-right: 1px solid #368B92;
+}
+
+.edit {
+	width: 25px;
+	color: #FFF;
+	padding: 4px;
+	background: #368B92;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
+
+
